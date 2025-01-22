@@ -1,0 +1,54 @@
+.menuDiv{  
+    background-color: rgb(0, 112, 94); 
+    color: white; 
+    height: 50px;
+
+} 
+.space{ 
+    padding-top: 10px;
+} 
+ 
+.part1{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(237,253,177);
+
+}  
+ 
+.space1{ 
+    padding-top: 10px;
+}
+ 
+.part2{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(200,223,116);
+
+} 
+.part3{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(200, 235, 77);
+
+} 
+ 
+.part4{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(248, 220, 141);
+
+} 
+ 
+.part5{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(207, 184, 119);
+
+} 
+
+.part6{  
+    font-size: 20px; 
+    min-height: 160px; 
+    background-color: rgb(204, 179, 79);
+
+}

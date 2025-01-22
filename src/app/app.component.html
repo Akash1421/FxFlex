@@ -1,0 +1,44 @@
+<div class="space"></div> 
+<div fxLayout="row wrap" fxLayoutAlign="center center"> 
+  <div class="menuDiv" fxFlex="70%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayoutAlign="start center">  
+    <div fxLayoutAlign="start center" >  
+      <mat-icon>folder</mat-icon> 
+      <span [ngStyle]="{'color':'yellow'}">MyCompany</span>
+    </div>  
+    <div fxFlex></div>
+    <div fxShow fxHide.xs>Text1 | Text2 | Text3 | Text4&nbsp;</div> 
+    <div fxHide fxShow.xs> 
+      <button mat-button [matMenuTriggerFor]="menu"> 
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+      <button mat-menu-item>Text 1</button>
+      <button mat-menu-item>Text 2</button> 
+      <button mat-menu-item>Text 3</button> 
+      <button mat-menu-item>Text 4</button>
+      </mat-menu>
+    </div>
+  
+  </div>    
+  <div class="space1"></div>
+  <!--2nd div-->
+  <div class="2div" fxFlex="70%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayout=" wrap"> 
+    <div class="part1" fxFlex="25%" fxFlex.sm="50%" fxFlex.xs="100%" fxLayoutAlign="center center">One</div> 
+    <div class="part2" fxFlex="25%" fxFlex.sm="50%" fxFlex.xs="100%" fxLayoutAlign="center center">Two</div> 
+    <div class="part3" fxFlex="50%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayoutAlign="center center">Three</div>
+  </div> 
+   
+  <!--3rd div-->    
+  <div class="3div" fxFlex="70%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayout="row wrap">   
+   <div fxFlex="50%" fxFlex.sm="50%" fxFlex.xs="100%" fxLayout="row wrap"> 
+    <div class="part4" fxFlex="50%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayoutAlign="center center">Four</div> 
+    <div class="part5" fxFlex="50%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayoutAlign="center center">Five</div>
+   </div> 
+   <div fxFlex="50%" fxFlex.sm="50%" fxFlex.xs="100%"> 
+    <div class="part6" fxFlex="100%" fxFlex="100%" fxFlex="100%" fxLayoutAlign="center center">six</div>
+   </div>
+  </div> 
+   
+  
+  
+</div>
